@@ -58,7 +58,6 @@ Detailed look into AWS EBS volumes, including creation, resizing, and encryption
 ## Day 5: AWS EBS Snapshot
 Understanding snapshots in AWS, including creation, management, and utilization for backups and AMI creation.
 - What is a Snapshot in AWS?
-- Lab Session - Creation of a snapshot from an EC2 instance
 - Lab Session - Creation of a snapshot from an EBS volume
 - Lab Session - Creation of an AWS AMI from a snapshot
 - Lab Session - Creation of an EBS volume from a snapshot
@@ -146,7 +145,6 @@ Understanding AWS S3 fundamentals, including bucket creation, object storage, ve
 - Server-side encryption for Amazon S3 buckets
 - Lab Session - Delete an S3 bucket
 
-
 ## Day 12: AWS VPC (Virtual Private Cloud) Part 1
 Introduction to AWS VPC networking, including CIDR blocks, subnets, route tables, and internet gateway setup.
 - What is AWS VPC (Virtual Private Cloud)?
@@ -166,6 +164,7 @@ Introduction to AWS VPC networking, including CIDR blocks, subnets, route tables
 ## Day 13: AWS VPC (Virtual Private Cloud) Part 2
 Advanced VPC configurations including NAT instances, NAT gateways, NACLs, and Security Groups.
 
+- Corporate  AWS VPC Architecture and Best Practices
 - Lab Session - Create a customized VPC in AWS
 - NAT Gateway and NAT Instance in AWS VPC
 - Differences between NAT Gateway and NAT Instance
@@ -240,13 +239,8 @@ Introduction to Kubernetes on AWS with EKS, including cluster setup, management,
 
 - What is Amazon Elastic Kubernetes Service?
 - How does Amazon EKS work?
-- Lab Session - Installation of AWS CLI in Windows
-- Lab Session - Installation of kubectl in Linux
-- Lab Session - Installation of kubectl in Windows
-- Lab Session - Creating an AWS IAM User
 - Lab Session - Creating an EKS Cluster through the AWS Console
 - Lab Session - Connecting to the EKS cluster
-- Lab Session - Deploying a sample application in Kubernetes
 
 ## Day 20: AWS KMS , SES , SNS
 Exploring AWS KMS for key management and encryption tasks, including key creation and usage scenarios.
@@ -332,10 +326,6 @@ Overview of AWS Systems Manager for managing EC2 instances, including Patch Mana
 - Working with SSM Agent
 - What is Parameter Store?
 - Creating the Parameter Store
-- What is Run Command?
-- Setting up Run Command
-- What is Patch Manager?
-- Working with Patch Manager
 - What is Secret Manager?
 - Working with Secret Manager
 
@@ -368,11 +358,12 @@ Introduction to AWS Directory Service for managing user directories, including s
 - Deploy an Amazon EC2 instance to manage your AWS Managed Microsoft AD Active Directory
 - Verify that the base test lab is operational
 
-## Day 30: Final Session
-Preparing for AWS-related job interviews, including mock interviews and review of key concepts.
-- Resume Preparation
-- Conducting Mock Interview
-- Interview Questions and Answers
+## Day 30: AWS Lambda 
+- What is AWS Lambda
+- Why Use AWS Lambda?
+- Supported Runtimes
+- Limitations
+- Automated AMI Backups for EC2 Instances Using Lambda
 
 # Conclusion
 Congratulations on completing the "30 Days AWS Zero to Hero" curriculum! By now, you should have a solid foundation in AWS services and be ready to tackle more advanced topics and certifications.
